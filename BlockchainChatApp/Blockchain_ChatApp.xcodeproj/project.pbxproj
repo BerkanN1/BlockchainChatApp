@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		050002442B2DE30F005583A5 /* SendMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050002432B2DE30F005583A5 /* SendMessageModel.swift */; };
+		050002462B2DE3F4005583A5 /* SendMessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050002452B2DE3F4005583A5 /* SendMessageViewModel.swift */; };
+		050002482B2DEA81005583A5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050002472B2DEA81005583A5 /* User.swift */; };
+		0500024A2B2DEAAE005583A5 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050002492B2DEAAE005583A5 /* UserViewModel.swift */; };
+		054B1C312B2F097000EF65BE /* GetMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1C302B2F097000EF65BE /* GetMessageModel.swift */; };
+		054B1C332B2F0A1900EF65BE /* GetMessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1C322B2F0A1900EF65BE /* GetMessageViewModel.swift */; };
+		054B1C352B2F1C3C00EF65BE /* GetTwoUserMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1C342B2F1C3C00EF65BE /* GetTwoUserMessageModel.swift */; };
+		054B1C372B2F1C9C00EF65BE /* UserMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1C362B2F1C9C00EF65BE /* UserMessage.swift */; };
+		054B1C392B2F65A900EF65BE /* GetSendMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1C382B2F65A900EF65BE /* GetSendMessageModel.swift */; };
+		054B1C3B2B2F671A00EF65BE /* SendMessageUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1C3A2B2F671A00EF65BE /* SendMessageUserViewModel.swift */; };
+		054B1C3D2B2F71D300EF65BE /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054B1C3C2B2F71D300EF65BE /* extension.swift */; };
+		057C09F92B567C8A00731225 /* ForgetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 057C09F82B567C8A00731225 /* ForgetPassword.swift */; };
+		05D8A1BE2B25EAB300A4F233 /* Blockchain_ChatAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8A1BD2B25EAB300A4F233 /* Blockchain_ChatAppApp.swift */; };
+		05D8A1C02B25EAB300A4F233 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8A1BF2B25EAB300A4F233 /* ContentView.swift */; };
+		05D8A1C22B25EAB800A4F233 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D8A1C12B25EAB800A4F233 /* Assets.xcassets */; };
+		05D8A1C52B25EAB800A4F233 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D8A1C42B25EAB800A4F233 /* Preview Assets.xcassets */; };
+		05D8A1CF2B25EBC600A4F233 /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8A1CE2B25EBC600A4F233 /* SignInModel.swift */; };
+		05D8A1D12B25EBCF00A4F233 /* MessageModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8A1D02B25EBCF00A4F233 /* MessageModal.swift */; };
+		05D8A2012B25FCAF00A4F233 /* CurveShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8A2002B25FCAF00A4F233 /* CurveShapeView.swift */; };
+		05D8A2032B25FCF300A4F233 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8A2022B25FCF300A4F233 /* Home.swift */; };
+		05D8A2052B25FD4700A4F233 /* Signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8A2042B25FD4700A4F233 /* Signup.swift */; };
+		05D8A2072B25FD5800A4F233 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8A2062B25FD5800A4F233 /* Login.swift */; };
+		05D8A2092B26030700A4F233 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8A2082B26030700A4F233 /* SignUpModel.swift */; };
+		05D8A20B2B26034300A4F233 /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8A20A2B26034300A4F233 /* Main.swift */; };
+		05D8A20D2B2603A000A4F233 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8A20C2B2603A000A4F233 /* Profile.swift */; };
+		05D8A20F2B2603CC00A4F233 /* NewMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8A20E2B2603CC00A4F233 /* NewMessage.swift */; };
+		05D8A2112B2603DB00A4F233 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8A2102B2603DB00A4F233 /* Message.swift */; };
+		05D8A2152B2643E300A4F233 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D8A2142B2643E300A4F233 /* Chat.swift */; };
+		05EDB1142B2DBA5B00F28CAE /* SignUpViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EDB1132B2DBA5B00F28CAE /* SignUpViewModel.swift */; };
+		05EDB1172B2DD0B200F28CAE /* SigninViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05EDB1162B2DD0B200F28CAE /* SigninViewModel.swift */; };
+		05FACDE72B56D3B900B56DEE /* ForgetPasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FACDE62B56D3B900B56DEE /* ForgetPasswordModel.swift */; };
+		05FACDE92B56D44700B56DEE /* ForgetPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FACDE82B56D44700B56DEE /* ForgetPasswordViewModel.swift */; };
+		05FACDED2B56E0B700B56DEE /* AlertManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FACDEC2B56E0B700B56DEE /* AlertManager.swift */; };
+		05FACDEF2B56EF5A00B56DEE /* RecipentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FACDEE2B56EF5A00B56DEE /* RecipentModel.swift */; };
+		05FACDF12B56EFD000B56DEE /* RecipentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05FACDF02B56EFD000B56DEE /* RecipentViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		050002432B2DE30F005583A5 /* SendMessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageModel.swift; sourceTree = "<group>"; };
+		050002452B2DE3F4005583A5 /* SendMessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageViewModel.swift; sourceTree = "<group>"; };
+		050002472B2DEA81005583A5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		050002492B2DEAAE005583A5 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		054B1C302B2F097000EF65BE /* GetMessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMessageModel.swift; sourceTree = "<group>"; };
+		054B1C322B2F0A1900EF65BE /* GetMessageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetMessageViewModel.swift; sourceTree = "<group>"; };
+		054B1C342B2F1C3C00EF65BE /* GetTwoUserMessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTwoUserMessageModel.swift; sourceTree = "<group>"; };
+		054B1C362B2F1C9C00EF65BE /* UserMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserMessage.swift; sourceTree = "<group>"; };
+		054B1C382B2F65A900EF65BE /* GetSendMessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSendMessageModel.swift; sourceTree = "<group>"; };
+		054B1C3A2B2F671A00EF65BE /* SendMessageUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageUserViewModel.swift; sourceTree = "<group>"; };
+		054B1C3C2B2F71D300EF65BE /* extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		057C09F82B567C8A00731225 /* ForgetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPassword.swift; sourceTree = "<group>"; };
+		05D8A1BA2B25EAB300A4F233 /* Blockchain_ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Blockchain_ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05D8A1BD2B25EAB300A4F233 /* Blockchain_ChatAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blockchain_ChatAppApp.swift; sourceTree = "<group>"; };
+		05D8A1BF2B25EAB300A4F233 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05D8A1C12B25EAB800A4F233 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05D8A1C42B25EAB800A4F233 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05D8A1CE2B25EBC600A4F233 /* SignInModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInModel.swift; sourceTree = "<group>"; };
+		05D8A1D02B25EBCF00A4F233 /* MessageModal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageModal.swift; sourceTree = "<group>"; };
+		05D8A2002B25FCAF00A4F233 /* CurveShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurveShapeView.swift; sourceTree = "<group>"; };
+		05D8A2022B25FCF300A4F233 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		05D8A2042B25FD4700A4F233 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
+		05D8A2062B25FD5800A4F233 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		05D8A2082B26030700A4F233 /* SignUpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
+		05D8A20A2B26034300A4F233 /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
+		05D8A20C2B2603A000A4F233 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		05D8A20E2B2603CC00A4F233 /* NewMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMessage.swift; sourceTree = "<group>"; };
+		05D8A2102B2603DB00A4F233 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		05D8A2142B2643E300A4F233 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		05EDB1132B2DBA5B00F28CAE /* SignUpViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewModel.swift; sourceTree = "<group>"; };
+		05EDB1152B2DC75600F28CAE /* Blockchain-ChatApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Blockchain-ChatApp-Info.plist"; sourceTree = SOURCE_ROOT; };
+		05EDB1162B2DD0B200F28CAE /* SigninViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninViewModel.swift; sourceTree = "<group>"; };
+		05FACDE62B56D3B900B56DEE /* ForgetPasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordModel.swift; sourceTree = "<group>"; };
+		05FACDE82B56D44700B56DEE /* ForgetPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewModel.swift; sourceTree = "<group>"; };
+		05FACDEC2B56E0B700B56DEE /* AlertManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertManager.swift; sourceTree = "<group>"; };
+		05FACDEE2B56EF5A00B56DEE /* RecipentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipentModel.swift; sourceTree = "<group>"; };
+		05FACDF02B56EFD000B56DEE /* RecipentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipentViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05D8A1B72B25EAB300A4F233 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05D8A1B12B25EAB300A4F233 = {
+			isa = PBXGroup;
+			children = (
+				05D8A1BC2B25EAB300A4F233 /* Blockchain_ChatApp */,
+				05D8A1BB2B25EAB300A4F233 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05D8A1BB2B25EAB300A4F233 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05D8A1BA2B25EAB300A4F233 /* Blockchain_ChatApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05D8A1BC2B25EAB300A4F233 /* Blockchain_ChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				05EDB1152B2DC75600F28CAE /* Blockchain-ChatApp-Info.plist */,
+				05D8A1CD2B25EB0800A4F233 /* View */,
+				05D8A1CC2B25EAFB00A4F233 /* ViewModel */,
+				05D8A1CB2B25EAEF00A4F233 /* Model */,
+				05D8A1BD2B25EAB300A4F233 /* Blockchain_ChatAppApp.swift */,
+				054B1C3C2B2F71D300EF65BE /* extension.swift */,
+				05FACDEC2B56E0B700B56DEE /* AlertManager.swift */,
+				05D8A1C12B25EAB800A4F233 /* Assets.xcassets */,
+				05D8A1C32B25EAB800A4F233 /* Preview Content */,
+			);
+			path = Blockchain_ChatApp;
+			sourceTree = "<group>";
+		};
+		05D8A1C32B25EAB800A4F233 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05D8A1C42B25EAB800A4F233 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05D8A1CB2B25EAEF00A4F233 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				05D8A1CE2B25EBC600A4F233 /* SignInModel.swift */,
+				05D8A1D02B25EBCF00A4F233 /* MessageModal.swift */,
+				05D8A2082B26030700A4F233 /* SignUpModel.swift */,
+				050002432B2DE30F005583A5 /* SendMessageModel.swift */,
+				050002472B2DEA81005583A5 /* User.swift */,
+				054B1C302B2F097000EF65BE /* GetMessageModel.swift */,
+				054B1C342B2F1C3C00EF65BE /* GetTwoUserMessageModel.swift */,
+				054B1C382B2F65A900EF65BE /* GetSendMessageModel.swift */,
+				05FACDE62B56D3B900B56DEE /* ForgetPasswordModel.swift */,
+				05FACDEE2B56EF5A00B56DEE /* RecipentModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		05D8A1CC2B25EAFB00A4F233 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				05EDB1132B2DBA5B00F28CAE /* SignUpViewModel.swift */,
+				05EDB1162B2DD0B200F28CAE /* SigninViewModel.swift */,
+				050002452B2DE3F4005583A5 /* SendMessageViewModel.swift */,
+				050002492B2DEAAE005583A5 /* UserViewModel.swift */,
+				054B1C322B2F0A1900EF65BE /* GetMessageViewModel.swift */,
+				054B1C362B2F1C9C00EF65BE /* UserMessage.swift */,
+				054B1C3A2B2F671A00EF65BE /* SendMessageUserViewModel.swift */,
+				05FACDE82B56D44700B56DEE /* ForgetPasswordViewModel.swift */,
+				05FACDF02B56EFD000B56DEE /* RecipentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		05D8A1CD2B25EB0800A4F233 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				05D8A2002B25FCAF00A4F233 /* CurveShapeView.swift */,
+				05D8A1BF2B25EAB300A4F233 /* ContentView.swift */,
+				05D8A2022B25FCF300A4F233 /* Home.swift */,
+				05D8A2042B25FD4700A4F233 /* Signup.swift */,
+				05D8A2062B25FD5800A4F233 /* Login.swift */,
+				05D8A20A2B26034300A4F233 /* Main.swift */,
+				05D8A20C2B2603A000A4F233 /* Profile.swift */,
+				05D8A20E2B2603CC00A4F233 /* NewMessage.swift */,
+				05D8A2102B2603DB00A4F233 /* Message.swift */,
+				05D8A2142B2643E300A4F233 /* Chat.swift */,
+				057C09F82B567C8A00731225 /* ForgetPassword.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05D8A1B92B25EAB300A4F233 /* Blockchain_ChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05D8A1C82B25EAB800A4F233 /* Build configuration list for PBXNativeTarget "Blockchain_ChatApp" */;
+			buildPhases = (
+				05D8A1B62B25EAB300A4F233 /* Sources */,
+				05D8A1B72B25EAB300A4F233 /* Frameworks */,
+				05D8A1B82B25EAB300A4F233 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Blockchain_ChatApp;
+			productName = Blockchain_ChatApp;
+			productReference = 05D8A1BA2B25EAB300A4F233 /* Blockchain_ChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05D8A1B22B25EAB300A4F233 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					05D8A1B92B25EAB300A4F233 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 05D8A1B52B25EAB300A4F233 /* Build configuration list for PBXProject "Blockchain_ChatApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05D8A1B12B25EAB300A4F233;
+			productRefGroup = 05D8A1BB2B25EAB300A4F233 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05D8A1B92B25EAB300A4F233 /* Blockchain_ChatApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05D8A1B82B25EAB300A4F233 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05D8A1C52B25EAB800A4F233 /* Preview Assets.xcassets in Resources */,
+				05D8A1C22B25EAB800A4F233 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05D8A1B62B25EAB300A4F233 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05FACDF12B56EFD000B56DEE /* RecipentViewModel.swift in Sources */,
+				054B1C372B2F1C9C00EF65BE /* UserMessage.swift in Sources */,
+				05D8A20B2B26034300A4F233 /* Main.swift in Sources */,
+				05D8A2052B25FD4700A4F233 /* Signup.swift in Sources */,
+				05EDB1142B2DBA5B00F28CAE /* SignUpViewModel.swift in Sources */,
+				05FACDE92B56D44700B56DEE /* ForgetPasswordViewModel.swift in Sources */,
+				054B1C392B2F65A900EF65BE /* GetSendMessageModel.swift in Sources */,
+				05D8A20F2B2603CC00A4F233 /* NewMessage.swift in Sources */,
+				05D8A1C02B25EAB300A4F233 /* ContentView.swift in Sources */,
+				05D8A2012B25FCAF00A4F233 /* CurveShapeView.swift in Sources */,
+				05D8A2092B26030700A4F233 /* SignUpModel.swift in Sources */,
+				054B1C3B2B2F671A00EF65BE /* SendMessageUserViewModel.swift in Sources */,
+				05EDB1172B2DD0B200F28CAE /* SigninViewModel.swift in Sources */,
+				05D8A1D12B25EBCF00A4F233 /* MessageModal.swift in Sources */,
+				05FACDE72B56D3B900B56DEE /* ForgetPasswordModel.swift in Sources */,
+				054B1C352B2F1C3C00EF65BE /* GetTwoUserMessageModel.swift in Sources */,
+				054B1C332B2F0A1900EF65BE /* GetMessageViewModel.swift in Sources */,
+				05D8A1CF2B25EBC600A4F233 /* SignInModel.swift in Sources */,
+				05D8A2032B25FCF300A4F233 /* Home.swift in Sources */,
+				05D8A2112B2603DB00A4F233 /* Message.swift in Sources */,
+				050002462B2DE3F4005583A5 /* SendMessageViewModel.swift in Sources */,
+				0500024A2B2DEAAE005583A5 /* UserViewModel.swift in Sources */,
+				05D8A20D2B2603A000A4F233 /* Profile.swift in Sources */,
+				05D8A1BE2B25EAB300A4F233 /* Blockchain_ChatAppApp.swift in Sources */,
+				054B1C3D2B2F71D300EF65BE /* extension.swift in Sources */,
+				05D8A2152B2643E300A4F233 /* Chat.swift in Sources */,
+				05FACDEF2B56EF5A00B56DEE /* RecipentModel.swift in Sources */,
+				05FACDED2B56E0B700B56DEE /* AlertManager.swift in Sources */,
+				054B1C312B2F097000EF65BE /* GetMessageModel.swift in Sources */,
+				05D8A2072B25FD5800A4F233 /* Login.swift in Sources */,
+				057C09F92B567C8A00731225 /* ForgetPassword.swift in Sources */,
+				050002442B2DE30F005583A5 /* SendMessageModel.swift in Sources */,
+				050002482B2DEA81005583A5 /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		05D8A1C62B25EAB800A4F233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05D8A1C72B25EAB800A4F233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05D8A1C92B25EAB800A4F233 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Blockchain_ChatApp/Preview Content\"";
+				DEVELOPMENT_TEAM = W22GSX8ABN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Blockchain-ChatApp-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.berkannalbant.Blockchain-ChatApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		05D8A1CA2B25EAB800A4F233 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Blockchain_ChatApp/Preview Content\"";
+				DEVELOPMENT_TEAM = W22GSX8ABN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Blockchain-ChatApp-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.berkannalbant.Blockchain-ChatApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05D8A1B52B25EAB300A4F233 /* Build configuration list for PBXProject "Blockchain_ChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D8A1C62B25EAB800A4F233 /* Debug */,
+				05D8A1C72B25EAB800A4F233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05D8A1C82B25EAB800A4F233 /* Build configuration list for PBXNativeTarget "Blockchain_ChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05D8A1C92B25EAB800A4F233 /* Debug */,
+				05D8A1CA2B25EAB800A4F233 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05D8A1B22B25EAB300A4F233 /* Project object */;
+}
